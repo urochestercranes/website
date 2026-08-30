@@ -1,0 +1,14 @@
+[build]
+  base = "client"
+  publish = "dist"
+
+[functions]
+  directory = "../netlify/functions"
+
+[dev]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

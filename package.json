@@ -1,0 +1,28 @@
+{
+  "name": "cranes",
+  "version": "1.0.0",
+  "description": "Cranes Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urochestercranes/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/urochestercranes/website/issues"
+  },
+  "homepage": "https://github.com/urochestercranes/website#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongodb": "^7.6.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.4.1"
+  }
+}
