@@ -1,0 +1,30 @@
+:root {
+  max-width: 100%;
+  --cranes-dark-grey: #404040;
+  --cranes-subtle-white: #efeded;
+  --cranes-blue-chill: #074446;
+  --cranes-classic-bronze: #b88e22;
+  --cranes-winter-cream: #FFF1E1;
+  --cranes-mauve: #bd7e89;
+
+  font-family: "Montserrat", sans-serif;
+  background: var(--cranes-winter-cream);
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  scroll-margin-top: 300px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

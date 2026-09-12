@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Page from "./pages/Page"
-
+import Navbar from "./components/Navbar/Nav"
 import './App.css'
 
 function App() {
@@ -35,10 +35,8 @@ function App() {
 
   return (
     <>
-      {
-      //<Navbar role="navigation"/>
-      }
       <BrowserRouter>
+        <Navbar role="navigation"/>
         <Routes>
           {pages.map((page) => {
               return <Route path={page.path} element={<Page page={page}/>}></Route>

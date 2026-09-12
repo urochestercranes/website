@@ -1,14 +1,16 @@
 import Block from "../components/Block"
 
+import "./Page.css"
+
+
 function Page({page}) {
-    console.log(page);
     return (
-        <>
+        <div className="page">
             {page.blocks.map((block) => {
                     return <Block type={block.type} content={block.content}/>
                 })
             }
-        </>
+        </div>
     )
 }
 
