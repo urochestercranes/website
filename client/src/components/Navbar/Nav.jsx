@@ -28,7 +28,7 @@ function Navbar() {
 
       <ul className={`nav-links`}>
         <li>
-          <NavLink to="/home2">Page 2</NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
           <NavLink to="/home3">Page 3</NavLink>

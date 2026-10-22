@@ -1,0 +1,13 @@
+.photo-container {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 16px;
+}

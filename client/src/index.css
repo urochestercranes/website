@@ -1,4 +1,6 @@
 :root {
+  height: 100%;
+  margin: 0;
   max-width: 100%;
   --cranes-dark-grey: #404040;
   --cranes-subtle-white: #efeded;

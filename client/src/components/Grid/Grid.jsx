@@ -11,7 +11,11 @@ function Grid({ content }) {
                 }}>
 
                 {content.blocks.map((block) =>{
-                    return <Block type={block.type} content={block.content}/>
+                    return (
+                    <div className="grid-item">
+                        <Block type={block.type} content={block.content}/>
+                    </div>
+                );
                 })}
             </div>
         </section>

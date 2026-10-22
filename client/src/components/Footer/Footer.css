@@ -1,0 +1,78 @@
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    background-color: var(--cranes-mauve);
+    color: var(--cranes-winter-cream);
+    margin-top: 5rem;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;        
+    justify-content: space-between;
+    width: 100%;
+    position: relative;     
+}
+
+.main-text {
+    flex: 1;                 
+    display: flex;
+    align-items: center;     
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.main-text p {
+    margin-top: 0rem;
+}
+
+.subscribe-form {
+  display: inline-flex;
+}
+
+.subscribe-form input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-right: none;           
+  border-radius: 6px 0 0 6px;
+  font-size: 1rem;
+  outline: none;
+  background-color: whitesmoke;
+  color: black;
+  width:fit-content;
+}
+
+.subscribe-form button {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--cranes-subtle-white);
+  border-radius: 0 6px 6px 0;    
+  background-color: var(--cranes-blue-chill);
+  color: var(--cranes-subtle-white);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    flex-direction: column
+  }
+
+  .footer-content{
+    flex-direction: column
+  }
+
+  .raised-box {
+    max-width: 90%
+  }
+
+  .admin-button {
+    visibility: hidden
+  }
+
+}

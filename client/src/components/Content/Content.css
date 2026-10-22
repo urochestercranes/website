@@ -1,0 +1,34 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding-top: 0px;
+    max-width: 1400px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text-container-centered {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-container {
+    width: fit-content;
+    padding: 20px;
+    max-width: 40%;
+}
+
+.content-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 300px;
+}
