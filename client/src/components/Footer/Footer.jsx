@@ -2,7 +2,6 @@ import "./Footer.css"
 import List from "../List/List"
 
 function Footer({content}) {
-    console.log(content);
     return (
         <footer className="footer">
             <div className="footer-content">
@@ -20,7 +19,7 @@ function Footer({content}) {
                     </form>
                 </div>
                 <div className="main-text">
-                    <List content={content.contactItems}></List>
+                    <List content={content.contactItems} inverted={true} ></List>
                 </div>
             </div>
         </footer>

@@ -13,9 +13,9 @@
 
 .list ul a {
     text-decoration: underline;
-    color: var(--cranes-winter-cream);
 }
 
-.list h2 {
-    font-size: 2.5rem;
+.footer-link {
+  color: var(--cranes-winter-cream);
+  margin: 0px;
 }

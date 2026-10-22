@@ -1,6 +1,7 @@
 import "./List.css"
 
-function List({ content }) {
+function List({ content, inverted = false }) {
+    let linkClass = inverted ? "footer-link" : "";
     return (
         <>
             <div className="list">
@@ -10,8 +11,8 @@ function List({ content }) {
                         return(
                         <li>
                             {/* add item icon here */}
-                            {item.text} 
-                            {item.link && (<a href={item.link} target="_blank" rel="noreferrer">{item.linkText}</a>)}
+                            {item.link && (<a className={linkClass} href={item.link} target="_blank" rel="noreferrer">{item.text}</a>)}
+                            {!item.link && <p className={linkClass}>{item.text}</p>}
                         </li>
                     );
                     })}

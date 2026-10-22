@@ -9,4 +9,6 @@
 .grid-item {
     max-height: 350px;
     align-items: center;
+    border: 2px solid var(--cranes-blue-chill);
+    border-radius: 20px;
 }
